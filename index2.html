@@ -79,7 +79,7 @@
         }
         #comments-kpi {
             background-color: #A5D8E0; /* Another Pastel Blue/Cyan */
-            border-bottom: 4px solid #82C5D0; /* Slightly darker pastel blue/cyan */
+            border-bottom: 4一层px solid #82C5D0; /* Slightly darker pastel blue/cyan */
             color: #1f2937;
         }
 
@@ -744,7 +744,7 @@
                 filename: 'Facebook_Ad_Dashboard.pdf',
                 image: { type: 'jpeg', quality: 0.98 },
                 html2canvas: { scale: 2, logging: true, dpi: 192, letterRendering: true }, // Higher scale for better image quality
-                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' } // A4 portrait format
+                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait', width: 190 } // A4 portrait format, force width to fit
             };
 
             // Show loading spinner during export
